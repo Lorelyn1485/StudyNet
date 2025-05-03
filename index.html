@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduNexus - Academic Networking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">Study<span>Net</span></div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for study groups, research, or questions...">
+            </div>
+            <div class="user-actions">
+                <div class="notification">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-badge">3</span>
+                </div>
+                <div class="user-profile">
+                    <div class="user-avatar">LS</div>
+                    <span>Lor S.</span>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-menu">
+            <a href="#" class="active">Home</a>
+            <a href="#">Study Groups</a>
+            <a href="#">Q&A</a>
+            <a href="#">Competitions</a>
+            <a href="#">Messages</a>
+            <a href="#">My Profile</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <button class="sidebar-btn">
+                    <i class="fas fa-users"></i> Join a Study Group
+                </button>
+                <button class="sidebar-btn">
+                    <i class="fas fa-flask"></i> Find Research Partners
+                </button>
+                <button class="sidebar-btn">
+                    <i class="fas fa-chalkboard-teacher"></i> Tutoring Sessions
+                </button>
+                <button class="sidebar-btn">
+                    <i class="fas fa-award"></i> My Contributions
+                </button>
+            </div>
+            
+            <div class="sidebar-section">
+                <div class="sidebar-title">My Reputation</div>
+                <div class="reputation-score">
+                    <div class="score-value">1,245</div>
+                    <div class="score-label">Reputation Points</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <div class="sidebar-title">Quick Links</div>
+                <button class="sidebar-btn">
+                    <i class="fas fa-book"></i> My Courses
+                </button>
+                <button class="sidebar-btn">
+                    <i class="fas fa-calendar"></i> Academic Calendar
+                </button>
+                <button class="sidebar-btn">
+                    <i class="fas fa-trophy"></i> Competitions
+                </button>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <!-- Featured Projects Carousel -->
+            <section class="carousel">
+                <h2 class="section-title">
+                    Featured Academic Projects
+                    <a href="#">View all</a>
+                </h2>
+                <div class="carousel-container">
+                    <div class="project-card">
+                        <span class="tag">Trending</span>
+                        <h3>Machine Learning in Education</h3>
+                        <p>Exploring applications of ML algorithms to personalize learning experiences for students.</p>
+                        <div class="project-meta">
+                            <span>12 members</span>
+                            <span>Computer Science</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <span class="tag">New</span>
+                        <h3>Sustainable Campus Initiative</h3>
+                        <p>Researching and implementing sustainability practices across university campuses.</p>
+                        <div class="project-meta">
+                            <span>8 members</span>
+                            <span>Environmental Science</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Neuroscience of Learning</h3>
+                        <p>Cross-disciplinary study on how brain function relates to learning efficiency.</p>
+                        <div class="project-meta">
+                            <span>5 members</span>
+                            <span>Neuroscience</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Ancient History Database</h3>
+                        <p>Creating a collaborative database of ancient artifacts with 3D modeling.</p>
+                        <div class="project-meta">
+                            <span>3 members</span>
+                            <span>Archaeology</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tutoring Schedule -->
+            <section class="tutoring-schedule">
+                <h2 class="section-title">
+                    Live Tutoring Schedule
+                    <a href="#">View full schedule</a>
+                </h2>
+                <div class="calendar-nav">
+                    <h4>June 2023</h4>
+                    <div class="calendar-nav-btns">
+                        <button class="calendar-nav-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="calendar-nav-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="calendar-grid">
+                    <div class="calendar-day">Sun</div>
+                    <div class="calendar-day">Mon</div>
+                    <div class="calendar-day">Tue</div>
+                    <div class="calendar-day">Wed</div>
+                    <div class="calendar-day">Thu</div>
+                    <div class="calendar-day">Fri</div>
+                    <div class="calendar-day">Sat</div>
+                    
+                    <!-- Calendar dates -->
+                    <div class="calendar-date">28</div>
+                    <div class="calendar-date">29</div>
+                    <div class="calendar-date">30</div>
+                    <div class="calendar-date">31</div>
+                    <div class="calendar-date">1</div>
+                    <div class="calendar-date">2</div>
+                    <div class="calendar-date">3</div>
+                    
+                    <div class="calendar-date">4</div>
+                    <div class="calendar-date">5</div>
+                    <div class="calendar-date">6</div>
+                    <div class="calendar-date">7</div>
+                    <div class="calendar-date">8</div>
+                    <div class="calendar-date">9</div>
+                    <div class="calendar-date">10</div>
+                    
+                    <div class="calendar-date">11</div>
+                    <div class="calendar-date has-session">12</div>
+                    <div class="calendar-date has-session">13</div>
+                    <div class="calendar-date has-session">14</div>
+                    <div class="calendar-date active has-session">15</div>
+                    <div class="calendar-date">16</div>
+                    <div class="calendar-date">17</div>
+                    
+                    <div class="calendar-date">18</div>
+                    <div class="calendar-date has-session">19</div>
+                    <div class="calendar-date has-session">20</div>
+                    <div class="calendar-date has-session">21</div>
+                    <div class="calendar-date has-session">22</div>
+                    <div class="calendar-date">23</div>
+                    <div class="calendar-date">24</div>
+                    
+                    <div class="calendar-date">25</div>
+                    <div class="calendar-date">26</div>
+                    <div class="calendar-date">27</div>
+                    <div class="calendar-date">28</div>
+                    <div class="calendar-date">29</div>
+                    <div class="calendar-date">30</div>
+                    <div class="calendar-date">1</div>
+                </div>
+                
+                <!-- Time slots for selected date -->
+                <div class="time-slots active">
+                    <div class="time-slot">
+                        <div class="time-slot-info">
+                            <h5>Calculus Review Session</h5>
+                            <p>10:00 AM - 11:30 AM | Prof. Rodriguez</p>
+                        </div>
+                        <button class="time-slot-btn">Join</button>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-slot-info">
+                            <h5>Python Programming Help</h5>
+                            <p>2:00 PM - 3:00 PM | Peer Tutor: Alex M.</p>
+                        </div>
+                        <button class="time-slot-btn">Join</button>
+                    </div>
+                    <div class="time-slot">
+                        <div class="time-slot-info">
+                            <h5>Research Paper Writing</h5>
+                            <p>4:30 PM - 6:00 PM | Writing Center</p>
+                        </div>
+                        <button class="time-slot-btn">Join</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Research Match Feed -->
+            <section class="research-feed">
+                <h2 class="section-title">
+                    Research Match Feed
+                    <a href="#">See more</a>
+                </h2>
+                <div class="research-card">
+                    <h3>Machine Learning in Education</h3>
+                    <p>Looking for team members to develop ML models that can predict student performance based on learning patterns. This is a cross-disciplinary project involving education, computer science, and psychology.</p>
+                    <div class="research-meta">
+                        <div class="research-tags">
+                            <span class="research-tag">Computer Science</span>
+                            <span class="research-tag">Education</span>
+                            <span class="research-tag">Python</span>
+                        </div>
+                        <div class="research-actions">
+                            <button class="research-btn outline-btn">View Details</button>
+                            <button class="research-btn primary-btn">Join Group</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="research-card">
+                    <h3>Environmental Impact of Urban Development</h3>
+                    <p>Seeking environmental science and urban planning students to collaborate on a study analyzing the ecological impact of recent urban expansion projects in metropolitan areas.</p>
+                    <div class="research-meta">
+                        <div class="research-tags">
+                            <span class="research-tag">Environmental Science</span>
+                            <span class="research-tag">Urban Planning</span>
+                            <span class="research-tag">GIS</span>
+                        </div>
+                        <div class="research-actions">
+                            <button class="research-btn outline-btn">View Details</button>
+                            <button class="research-btn primary-btn">Join Group</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Q&A Section -->
+            <section class="qa-section">
+                <h2 class="section-title">
+                    Q&A Forum
+                    <a href="#">Browse all questions</a>
+                </h2>
+                <button class="ask-question-btn">
+                    <i class="fas fa-plus"></i> Ask a Question
+                </button>
+                <div class="question-card">
+                    <div class="question-header">
+                        <h3 class="question-title">How to implement gradient descent from scratch in Python?</h3>
+                        <div class="question-meta">
+                            <span>15 answers</span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                    <div class="question-body">
+                        I'm trying to understand the fundamentals of machine learning algorithms by implementing them myself. I've got the mathematical concept of gradient descent but struggling with the Python implementation...
+                    </div>
+                    <div class="question-footer">
+                        <div class="question-tags">
+                            <span class="question-tag">Machine Learning</span>
+                            <span class="question-tag">Python</span>
+                            <span class="question-tag">Algorithms</span>
+                        </div>
+                        <div class="question-actions">
+                            <div class="question-action">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>24</span>
+                            </div>
+                            <div class="question-action">
+                                <i class="fas fa-bookmark"></i>
+                                <span>Save</span>
+                            </div>
+                            <div class="question-action">
+                                <i class="fas fa-reply"></i>
+                                <span>Answer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="question-card">
+                    <div class="question-header">
+                        <h3 class="question-title">Best resources for learning quantum computing basics?</h3>
+                        <div class="question-meta">
+                            <span>8 answers</span>
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                    <div class="question-body">
+                        As a computer science undergrad with limited physics background, what are the most accessible resources (books, online courses, videos) to get started with quantum computing concepts?
+                    </div>
+                    <div class="question-footer">
+                        <div class="question-tags">
+                            <span class="question-tag">Quantum Computing</span>
+                            <span class="question-tag">Resources</span>
+                            <span class="question-tag">Computer Science</span>
+                        </div>
+                        <div class="question-actions">
+                            <div class="question-action">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>17</span>
+                            </div>
+                            <div class="question-action">
+                                <i class="fas fa-bookmark"></i>
+                                <span>Save</span>
+                            </div>
+                            <div class="question-action">
+                                <i class="fas fa-reply"></i>
+                                <span>Answer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
